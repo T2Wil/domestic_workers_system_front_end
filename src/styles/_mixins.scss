@@ -1,0 +1,5 @@
+@mixin photo($width:auto, $height:auto, $border-radius:auto){
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+}

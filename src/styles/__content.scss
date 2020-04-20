@@ -1,0 +1,15 @@
+@import './base';
+.content__direction--center{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin-top: 6%;
+}
+.content__form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    input{
+        width: 20rem;
+    }
+}

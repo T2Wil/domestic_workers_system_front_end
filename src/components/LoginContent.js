@@ -11,16 +11,10 @@ import { fetchUsers } from '../actions/index';
 import { connect } from 'react-redux';
 
 class LoginContent extends Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = { data: { email: '', password: '' } };
-  // }
-  state = {
-    data: {
-      email: '',
-      password: '',
-    },
-  };
+  constructor(props) {
+    super(props);
+    this.state = { data: { email: '', password: '' } };
+  }
   render() {
     return (
       <div style={allStyles.LoginForm} className="align-middle">

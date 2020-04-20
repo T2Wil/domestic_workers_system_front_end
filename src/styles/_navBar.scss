@@ -1,0 +1,12 @@
+@import './base';
+header{
+    padding: 0.5rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        display: block;
+    }
+    ul{
+        margin-top: 1rem;
+    }
+};
