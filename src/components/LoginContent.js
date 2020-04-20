@@ -50,6 +50,7 @@ class LoginContent extends Component {
         <SubmitButton
           className="btn-lg btn-dark btn-block "
           onClick={(e) => this.login(e)}
+          label="log in"
         />
         <div className="text-center pt-3">
           Or continue with your social account
@@ -72,9 +73,10 @@ class LoginContent extends Component {
   }
   onChangeHandler = (event) => {
     this.setState({
-      data: { 
+      data: {
         ...this.state.data,
-      [event.target.name]: event.target.value },
+        [event.target.name]: event.target.value,
+      },
     });
   };
   login = (e) => {
